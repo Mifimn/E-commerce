@@ -1,0 +1,66 @@
+.details {
+    background: none;
+    /* border-radius: 5px; */
+    box-shadow: 0px 0px 0px;
+    padding: 20px;
+    width: 400px;
+}
+
+.details h3 {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.details label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 20px;
+    color: rgb(105, 35, 35);
+}
+
+.details input, .details textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: none;
+    border-bottom: 1px solid #ff523b;
+    border-radius: 4px;
+    outline: none;
+    font-weight: bold;
+}
+
+.details textarea {
+    resize: vertical;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.details input[type="submit"] {
+    background-color: #ff523b;
+    color: #fff;
+    padding: 10px 20px 30px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.details input[type="submit"]:hover {
+    background-color: #563434;
+    transform: translateY(-3px);
+}
+
+.price {
+    color: black;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.read {
+    background-color: rgba(239, 239, 239, 0.3);
+    color: rgb(84, 84, 84);
+}
